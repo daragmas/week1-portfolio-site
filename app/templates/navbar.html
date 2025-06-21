@@ -1,0 +1,23 @@
+
+<header class="nav-bar">
+    <nav class="nav-content">
+        <ul class="navbar-links">
+            <li class="home">
+                <a href="/">
+                    <div class="nav-logo">
+                        <img src="./static/img/logo.svg" />
+                    </div>
+                </a>
+            </li>
+            <li class="about-dropdown">About</li>
+                <ul class="nested-dropdown">
+                    {% for profile in profiles %}
+                        <ul class="profile-name">{profile.name}
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Hobbies</a></li>
+                        </ul>
+                    {% endfor %}
+                </ul>
+        </ul>
+    </nav>
+</header>
