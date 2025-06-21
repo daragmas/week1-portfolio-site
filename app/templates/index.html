@@ -30,11 +30,21 @@
         </div>
     </header>
 
-    <div class="profile">
-        <div id="profile-picture" class="profile-picture">
-            <img src="./static/img/logo.jpg">
+    <div class="profile-cards">
+
+        {% for profile in profiles %}
+        <div class="profile">
+            <a href="{{url_for('about', profile=profile)}}">
+                <div class="profile-picture">
+                    <img src="{{ profile.profile_picture }}">
+                </div>
+                <h1 class="profile-name">{{ profile.name }}</h1>
+                <p class="profile-short-bio">{{profile.short_bio}}</p>
+            </a>
         </div>
-        <h1>{{ title }}</h1>
+        {% endfor %}
+
     </div>
+
 </body>
 </html>
