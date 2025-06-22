@@ -27,7 +27,11 @@ profiles = [
             "major": "Engineering Management",
             "graduation_year": 2016
         },
-        "hobbies": [("name", "img_url")]
+        "hobbies": [
+            ("TTRPGs", "https://logos-world.net/wp-content/uploads/2021/12/DnD-Symbol.png"),
+            ("Gardening", "https://www.gardeningknowhow.com/wp-content/uploads/2020/06/gardening-picture-id534227013.jpg"),
+            ("Video Games", "https://www.pinclipart.com/picdir/middle/100-1003109_steam-clip-art.png")
+        ]
     },
     {
         "name": "Anitha Amarnath",
