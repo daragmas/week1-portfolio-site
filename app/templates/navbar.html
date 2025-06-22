@@ -28,7 +28,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">About</a></li>
-                                        <li><a class="dropdown-item" href="#">Hobbies</a></li>
+                                        <li><a class="dropdown-item" href="{{ url_for('hobbies', name=profile.name.lower().replace(' ', '-')) }}">Hobbies</a></li>
                                     </ul>
                             </div>
                         </li>
