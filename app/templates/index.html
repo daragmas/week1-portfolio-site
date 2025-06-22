@@ -4,7 +4,10 @@ content %}
   {% for profile in profiles %}
   <div class="profile">
     <div class="profile-picture">
-      <img src="{{ profile.profile_picture }}" />
+      <img
+        src="{{url_for('static', filename=profile.profile_picture)}}"
+        alt="Profile Picture"
+      />
     </div>
     <h1 class="profile-name">{{ profile.name }}</h1>
     <p class="profile-short-bio">{{profile.short_bio}}</p>
