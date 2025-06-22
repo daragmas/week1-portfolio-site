@@ -12,8 +12,8 @@ def index():
     return render_template('index.html', title="MLH Fellows", url=os.getenv("URL"), profiles=profiles)
 
 
-@app.route('/about/anitha')
-def about_anitha():
-    anitha = next(
-        (profile for profile in profiles if profile['name'] == 'Anitha Amarnath'), None)
-    return render_template('anitha_about_page.html', title="Anitha", url=os.getenv("URL"), profile=anitha)
+@app.route('/about/<name>')
+def about_profile(name):
+    profile = next(
+        (p for p in profiles if p['name'].lower().replace(" ", "-") == name), None)
+    return render_template('about_page.html', profile=profile, title=profile['name'], url=os.getenv("URL"), profiles=profiles)
