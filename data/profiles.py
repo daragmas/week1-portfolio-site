@@ -67,7 +67,7 @@ profiles = [
             "major": "Information Technology",
             "graduation_year": 2014
         },
-        "map": "img/anitha_visited_map.jpg",
+        "map": "img/anitha_visited_map.png",
         "hobbies":  [("chess", "img/anitha_travel_hobbie.jpg"),
                      ("travel", "img/anitha_chess_hobbie.jpg"),
                      ]
