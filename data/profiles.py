@@ -1,7 +1,7 @@
 profiles = [
     {
         "name": "Nate",
-        "profile_picture": "./static/img/profilepic_nate.jpg",
+        "profile_picture": "img/profilepic_nate.jpg",
         "short_bio": "A freelance web developer, with a background in mechanical engineering",
         "long_bio": "The should be a much longer bio here about Nate, but he put writing off until he was finished "
                     "with getting the website up and running. So, enjoy a Lorem Ipsum-esque placeholder.",
@@ -31,9 +31,9 @@ profiles = [
     },
     {
         "name": "Anitha Amarnath",
-        "profile_picture":  "./static/img/profilepic_anitha.jpg",
+        "profile_picture":  "img/profilepic_anitha.jpg",
         "short_bio": "I am a certified Salesforce Developer and a passionate full stack developer with a background in computer science.",
-        "long_bio": "I hold a Master's degree in Information Technology from SRM University and have further enhanced my skills through various certificate programs, including Web Development with Lighthouse Labs, NodeJS with ComIT, and Adobe In-suite with Emily Carr University of Art and Design. I am also a Salesforce Certified Platform Developer I, demonstrating my proficiency and expertise in developing custom applications on the Salesforce platform. I am passionate about continuous learning and staying updated with the latest industry trends and technologies. I am motivated by the challenges and opportunities that software development offers and by the impact that I can make through my work.",
+        "long_bio": "I hold a Master's degree in Information Technology from SRM University and have further enhanced my skills through various certificate programs, including Web Development with Lighthouse Labs, NodeJS with ComIT, and Adobe In-suite with Emily Carr University of Art and Design. I am also a Salesforce Certified Platform Developer I, demonstrating my proficiency and expertise in developing custom applications on the Salesforce platform. I am passionate about continuous learning and staying updated with the latest industry trends and technologies.",
         "work_history": [
             {
                 "position": "Product Developer",
