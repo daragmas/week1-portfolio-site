@@ -1,7 +1,6 @@
 profiles = [
     {
         "name": "Nathaniel Wolf",
-        "profile_picture": "./static/img/profilepic_nate.jpg",
         "profile_picture": "img/profilepic_nate.jpg",
         "short_bio": "A freelance web developer, with a background in mechanical engineering",
         "long_bio": "The should be a much longer bio here about Nate, but he put writing off until he was finished "
