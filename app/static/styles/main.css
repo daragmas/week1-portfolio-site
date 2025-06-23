@@ -129,3 +129,12 @@ body {
    margin-left: 10px;
 }
 
+.hobby-img{
+    height: 20rem;
+    width: auto;
+}
+
+.hobby-text{
+    background-color: #1d539f;
+}
+

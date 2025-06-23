@@ -34,11 +34,11 @@
                     <li>
                       <a
                         class="dropdown-item"
-                        href="/about/{{profile.name | lower | replace(' ','-')}}"
-                        >About</a
-                      >
+                        href="/about/{{profile.name | lower | replace(' ','-')}}">
+                          About
+                      </a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Hobbies</a></li>
+                    <li><a class="dropdown-item" href="{{ url_for('hobbies', name=profile.name.lower().replace(' ', '-')) }}">Hobbies</a></li>
                   </ul>
                 </div>
               </li>
